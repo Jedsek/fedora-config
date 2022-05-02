@@ -1,0 +1,20 @@
+cd (status dirname)
+set -x scripts_dir       (pwd)
+set -x nu      (ls /home/ | head -n 1)
+set -x nud     /home/$nu
+
+sudo chmod -R 777 $nud/.local/ $nud/.config/
+
+fish -N $scripts_dir/gnome/setup.fish
+fish -N $scripts_dir/editors/setup.fish
+fish -N $scripts_dir/terminals/setup.fish
+fish -N $scripts_dir/fcitx5/setup.fish
+fish -N $scripts_dir/code/setup.fish
+
+sudo rm -rf /root/.config
+sudo ln -s  $nud/.config /root/
+
+echo "Reboot now......"
+sudo rm -rf $scripts_dir
+sudo sed -i '$d' /etc/sudoers
+reboot

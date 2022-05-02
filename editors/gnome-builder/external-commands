@@ -1,0 +1,9 @@
+[34395859-47c7-4187-8a48-43d5ab0c9a7f]
+Locality=host
+Shortcut=<Alt>Return
+Title=Terminal-Zellij
+Command=zj
+Directory=./
+CloseOnExit=true
+Environment=
+

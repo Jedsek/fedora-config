@@ -1,0 +1,1 @@
+sudo cnpm i -g typescript typescript-language-server

@@ -1,0 +1,9 @@
+---
+template:
+  direction: Horizontal
+  parts:
+    - direction: Vertical
+      body: true
+      borderless: true
+      split_size:
+        Fixed: 1
