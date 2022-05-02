@@ -6,6 +6,6 @@ function valac -w "valac"
     end
 end
 
-function vala -w "vala"
+function vala -w "valac"
     command vala -X -w $argv
 end
