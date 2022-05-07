@@ -33,7 +33,7 @@ echo "Args:
         
         case "vala"
             mkdir -p src && touch src/main.vala src/meson.build
-echo "project('$project', ['vala', 'c'], version = '0.1.0')
+echo "project('$project', ['vala', 'c'], version: '0.1.0')
 
 glib_dep =    dependency('glib-2.0')
 gobject_dep = dependency('gobject-2.0')
