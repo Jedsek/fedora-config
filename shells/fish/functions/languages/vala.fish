@@ -7,5 +7,5 @@ function valac -w "valac"
 end
 
 function vala -w "valac"
-    command vala -X -w $argv
+    command vala -X -w --cc clang $argv
 end
