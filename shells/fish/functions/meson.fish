@@ -33,17 +33,25 @@ echo "Args:
         
         case "vala"
             mkdir -p src && touch src/main.vala src/meson.build
-echo "project('$project', ['vala', 'c'])        
+echo "project('$project', ['vala', 'c'], version = '0.1.0')
+
+glib_dep =    dependency('glib-2.0')
+gobject_dep = dependency('gobject-2.0')
+gee_dep =     dependency('gee-0.8')
+gio_dep =     dependency('gio-2.0')
+gtk_dep =    dependency('gtk4')
 
 dependencies = [
-        dependency('glib-2.0'),
-        dependency('gobject-2.0'),
-        dependency('gee-0.8'),
+  glib_dep,
+  gobject_dep,
+  gee_dep,
+  gio_dep,
+  gtk_dep
 ]
 
 sources = files('src/main.vala')
 
-executable('$project', sources, dependencies: dependencies)" > ./meson.build
+executable(meson.project_name(), sources, dependencies: dependencies)" > ./meson.build
 
 echo 'void main() {
     stdout.printf("Hello world!");
