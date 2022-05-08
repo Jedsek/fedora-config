@@ -10,7 +10,7 @@ function __ninja_tools
 end
 
 function n -d "Alias for Ninja"
-    switch $argv
+    switch $argv[1]
         case "b"
             ninja -C build $argv[2]
          case "*"
