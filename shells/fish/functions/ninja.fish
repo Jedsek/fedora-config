@@ -12,10 +12,7 @@ end
 function n -d "Alias for Ninja"
     switch $argv
         case "b"
-            ninja -C build
-        case "r"
-            set proj (basename (pwd))
-            ninja -C build && ./build/$proj
+            ninja -C build $argv[2]
          case "*"
             echo "No this options!"
     end
