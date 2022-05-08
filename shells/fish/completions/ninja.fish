@@ -10,4 +10,3 @@ complete -f -c ninja -s k -d "keep until N jobs fail"
 complete -f -c ninja -s h -d "help"
 
 complete -x -c n -a "b" -d "ninja build"
-complete -x -c n -a "r" -d "ninja build and run"
