@@ -7,3 +7,7 @@ injection-regex = "vala"
 file-types = ["vala"]
 language-server = { command = "vala-language-server" }
 indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "rust"
+auto-format = false
