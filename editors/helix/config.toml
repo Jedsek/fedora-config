@@ -3,7 +3,7 @@ theme = "nord"
 [editor]
 shell = ["fish", "-c"]
 line-number = "relative"
-idle-timeout = 200
+idle-timeout = 0
 
 [editor.cursor-shape]
 insert = "bar"
