@@ -2,7 +2,7 @@ function c -w clear
     clear
 end
 
-function ls -w exa
+function e -w exa
     exa $argv
 end
 
