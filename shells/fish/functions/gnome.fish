@@ -1,11 +1,3 @@
-function gext -w gnome-extensions -d "gnome-extensions"
-    gnome-extensions $argv
-end
-
-function gset -w gsettings -a arg -d "gsettings"
-    gsettings $argv
-end
-
 function gpref -a do_what ext_uuid l_or_r key val -d "Preferences for GNOME extensions" 
     set -l arr_num
     set ext_name (echo $ext_uuid | string split @)
