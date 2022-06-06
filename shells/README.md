@@ -33,3 +33,65 @@ completions就不说了, 我的functions配置如下:
         因此, 应传参给valac, 让它告诉c编译器快点闭嘴  
 - [GNOME](./fish/functions/gnome.fish/)
   - `gpref`: 用于快速配置gnome-extensions的各种属性, 已启用completions
+
+## Starship
+Starship 是一个Rust编写的, 高性能的Shell提示符工具  
+
+```
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[x](bold red)"
+vicmd_symbol = "[<](bold green)"
+
+[git_commit]
+tag_symbol = " tag "
+
+[git_status]
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+
+[aws]
+symbol = "aws "
+
+[cobol]
+symbol = "cobol "
+
+[conda]
+symbol = "conda "
+
+[crystal]
+symbol = "cr "
+
+[cmake]
+symbol = "cmake "
+
+[dart]
+symbol = "dart "
+
+[deno]
+symbol = "deno "
+
+[dotnet]
+symbol = ".NET "
+
+[directory]
+read_only = " ro"
+
+[docker_context]
+symbol = "docker "
+
+[elixir]
+symbol = "exs "
+
+[elm]
+symbol = "elm "
+
+[git_branch]
+symbol = "git "
+
+## ......
+## ......
+```
