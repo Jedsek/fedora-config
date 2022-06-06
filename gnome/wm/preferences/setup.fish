@@ -4,4 +4,4 @@ set mt  gsettings set org.gnome.mutter
 $wmp workspace-names "['Browser', 'Terminal', 'Game', 'Box', 'Other']"
 $wmp num-workspaces 5
 
-$mt dynamic-workspaces false
+$mt dynamic-workspaces true
