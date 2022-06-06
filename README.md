@@ -47,8 +47,7 @@ sh fedora-config/total-script.sh
 > 当然, 也有其他的可供选择, 不过并不推荐
 
 ![Helix-editing](screenshots/editors/helix-editing.png)
-![Helix-file-picker](screenshots/editors/helix-file-picker.png)
-![Helix-symbol-picker](screenshots/editors/helix-symbol-picker)
+![Helix-symbol-picker](screenshots/editors/helix-symbol-picker.png)
 
 ## 结语
 该项目力求跟上时代, 永不过时  
