@@ -36,4 +36,4 @@ completions就不说了, 我的functions配置如下:
 
 ## Starship
 Starship 是一个Rust编写的, 高性能的Shell提示符工具  
-配置文件: [starship.toml](./fish/functions/starship.toml)
+配置文件: [starship.toml](./starship/starship.toml)
