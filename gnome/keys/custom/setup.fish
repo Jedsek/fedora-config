@@ -27,8 +27,3 @@ gsettings set $gp1/custom2/ binding  '<Super>b'
 gsettings set $gp1/custom3/ name     'Settings'
 gsettings set $gp1/custom3/ command  'gnome-control-center'
 gsettings set $gp1/custom3/ binding  '<Super>s'
-
-## Gnome-Builder
-gsettings set $gp1/custom4/ name     'Builder'
-gsettings set $gp1/custom4/ command  'gnome-builder'
-gsettings set $gp1/custom4/ binding  '<Super>slash'
