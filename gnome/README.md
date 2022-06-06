@@ -27,11 +27,8 @@ Fedora 属于红帽一派, 而红帽又是GNOME的死忠
 - 替换左上角为Workspace的名称
 
 ## Windows Manager
-
 GNOME的WM是Mutter, 经大量折腾其实也能模拟Sway之辈  
 但我不会配置成平铺式, 因为虽然炫酷, 但实际上只适合少数人  
 
-- 消除不必要的过渡动画
-- 消除Dash-Dock  
 - `Sup+n` 切换工作区
 - `Sup+hjkl` 调整位置
