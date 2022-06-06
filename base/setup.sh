@@ -5,4 +5,4 @@ sh $scripts_dir/base/list/disable-service.sh
 sh $scripts_dir/base/list/clean.sh
 sh $scripts_dir/base/list/managers.sh
 sh $scripts_dir/base/list/install-software.sh
-sh $scripts_dir/base/list/git.sh
+sh $scripts_dir/base/list/git_config.sh
