@@ -32,7 +32,7 @@ completions就不说了, 我的functions配置如下:
         我们应忽略这些无效警告, 因为我们要关注的是vala的语义, 而非vala编译得来的c文件的语义  
         因此, 应传参给valac, 让它告诉c编译器快点闭嘴  
 - [GNOME](./fish/functions/gnome.fish/)
-  - `gpref`: 用于快速配置gnome-extensions的各种属性, 已启用completions
+  - `gpref`: 用于快速配置gnome-extensions的各种属性, 已启用completions  
 
 ## Starship
 Starship 是一个Rust编写的, 高性能的Shell提示符工具  
