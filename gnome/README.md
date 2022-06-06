@@ -2,7 +2,7 @@
 Fedora属于红帽一派, 而红帽又是GNOME的死忠  
 因此, 官方支持的桌面环境只有GNOME :)  
 
-以下配置结合了GNOME-Extensions, 可在 [GNOME-Extensions](./extensions) 中查看详情  
+以下配置结合了GNOME-Extensions, 可在 [extensions/list](./extensions/list) 中查看详情  
 
 祝你玩得开心!  
 
