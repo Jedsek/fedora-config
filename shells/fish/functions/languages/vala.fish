@@ -1,4 +1,7 @@
 function valac -w "valac"
+    ## 如果想得到vala文件编译成的c文件, 即传入 `-C`, `--ccode` 参数
+    ## 此时不需要传入 `-X -w` 来无视警告, 不然valac会提示说不需要, 挺烦的
+    ## 因此, 如下写, 使得二者不会共同出现
     if string match -rq -- "-C|--ccode" $argv
         command valac $argv
     else
