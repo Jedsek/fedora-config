@@ -20,8 +20,8 @@ sh fedora-config/total-script.sh
 |Item|Name|
 |:---|:---|
 |DE|GNOME 42|
-|Shell|Fish|
-|Terminal|Alacritty & Zellij|
+|Shell|Fish + Starship|
+|Terminal|Alacritty + Zellij|
 |Editor|Helix|
 |Input Method|Fcitx5|
 
