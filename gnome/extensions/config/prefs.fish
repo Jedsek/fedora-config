@@ -29,7 +29,7 @@ ges application-list "[
 'firefox.desktop:1',
 'xfce4-terminal.desktop:2', 'Alacritty.desktop:2', 'org.gnome.Terminal.desktop:2',
 'steam.desktop:3', 
-'org.gnome.Boxes.desktop:4',
+'org.gnome.Boxes.desktop:4'
 ]"
 
 # Overview-Navigation
