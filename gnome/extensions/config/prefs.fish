@@ -33,9 +33,8 @@ set_name auto-move-windows@gnome-shell-extensions.gcampax.github.com
 ges application-list "[
 'firefox.desktop:1',
 'xfce4-terminal.desktop:2', 'Alacritty.desktop:2', 'org.gnome.Terminal.desktop:2',
-'org.gnome.Builder.desktop:3',
+'steam.desktop:3', 
 'org.gnome.Boxes.desktop:4',
-'steam.desktop:5'
 ]"
 
 # Overview-Navigation
