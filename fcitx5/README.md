@@ -22,4 +22,4 @@
 
 ## 词典
 
-使用了搜狗词库, 可在 [pinyin](./pinyin) 中查看
+使用了搜狗词库, 可在 [pinyin/dictionaries](./pinyin/dictionaries) 中查看
