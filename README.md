@@ -8,14 +8,12 @@
 **注意:**  
 **Fedora的版本为: 36**
 
-
 ## 用法
 
 ```bash
 git clone https://gitee.com/jedsek/fedora-config
 sh fedora-config/total-script.sh
 ```
-
 
 ## 总览
 
@@ -39,7 +37,7 @@ sh fedora-config/total-script.sh
 ### Terminal/Shell 
 > Shell选择了Fish, 搭配上了Starship  
 > 终端与复用器, 分别选择了 Alacritty 与 Zellij  
-> 关于Fish配置的详情, 请点击传送门: [To Fish](shells/fish/)  
+> 关于Fish配置的详情, 请点击传送门: [To Shell](shells/)  
 ![Terminal](screenshots/terminal/terminal.png)
 
 ## 结语
