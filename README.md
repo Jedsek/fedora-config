@@ -36,6 +36,7 @@ sh fedora-config/total-script.sh
 > [To Shell](shells/) && [To Terminal](terminals/)  
 
 ![Terminal](screenshots/terminal/terminal.png)
+![Terminal](screenshots/terminal/zellij.png)
 
 ## Editor
 > Helix-Editor 万岁!  
