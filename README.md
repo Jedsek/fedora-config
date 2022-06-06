@@ -36,8 +36,8 @@ sh fedora-config/total-script.sh
 ![GNOME-Desktop](screenshots/gnome/desktop.png)  
 
 ### Terminal/Shell 
-> Shell选择了Fish, 搭配上了Starship  
-> 终端与复用器, 分别选择了 Alacritty 与 Zellij  
+> Shell: Fish + Starship  
+> Terminal: Alacritty + Zellij  
 > [To Shell](shells/) && [To Terminal](terminals/)  
 
 ![Terminal](screenshots/terminal/terminal.png)
