@@ -6,16 +6,6 @@ function e -w exa
     exa $argv
 end
 
-function q -a args -d "List with tree-format"
-    if not set -q args[1]
-        exa -T
-    else if string match -rq "\w*" $args[1]
-        exa -T $args
-    else
-        exa -T -L $args
-    end
-end
-
 function mkd -w mkdir -d "Make Directory"
     mkdir $argv
 end
