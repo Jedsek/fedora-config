@@ -14,7 +14,7 @@ Fish 是一个友好的shell, 提供了清晰简单的命令与配置方法
 completions就不说了, 我的functions配置如下:
 
 - languages:
-    -
+    - ad
 
 
 
