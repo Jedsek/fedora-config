@@ -1,11 +1,9 @@
 # Fcitx5
 
 ## 介绍
-
 这是 `Fcitx5` 的配置文件  
 
 ## 键位
-
 - 切换中英文:  
 `Ctrl+Space`  
 
@@ -21,5 +19,10 @@
 `Ctrl + .`  
 
 ## 词典
+使用了搜狗词库, 可在 [pinyin/dictionaries](./pinyin/dictionaries) 中查看  
 
-使用了搜狗词库, 可在 [pinyin/dictionaries](./pinyin/dictionaries) 中查看
+## 重载
+当你的fcitx5出于某种未知的原因变得不正常时 (比如位置错误, 疯狂闪烁等)  
+可以在终端输入 `fcitx5 -r` 来重新加载
+
+Enjoy it!
