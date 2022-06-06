@@ -2,7 +2,7 @@
 
 ## 概述
 - Shell: 采用 `Fish`
-- TM: 采用 `Zellij`
+- Shell-Prompt: 采用 `Starship`
 
 ## Fish
 Fish 是一个友好的shell, 提供了清晰简单的命令与配置方法  
