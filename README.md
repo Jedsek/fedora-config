@@ -37,8 +37,13 @@ sh fedora-config/total-script.sh
 ### Terminal/Shell 
 > Shell选择了Fish, 搭配上了Starship  
 > 终端与复用器, 分别选择了 Alacritty 与 Zellij  
-> 关于具体配置, 请点击传送门: [To Shell](shells/)  
+> 关于具体配置, 请点击传送门: [To Shell](shells/) && [To Terminal](terminals/)  
 ![Terminal](screenshots/terminal/terminal.png)
+
+### Editor
+> Helix-Editor 万岁!
+> 当然, 也搭配有其他选项, 不过不推荐
+![Helix-Editor](screenshots/editors/helix-editor.png)
 
 ## 结语
 该项目力求跟上时代, 永不过时  
