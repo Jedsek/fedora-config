@@ -24,7 +24,6 @@ Fedora 属于红帽一派, 而红帽又是GNOME的死忠
 
 ## Topbar
 - 默认隐藏顶栏
-- 毛玻璃模糊
 - 替换左上角为Workspace的名称
 
 ## Windows Manager
