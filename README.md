@@ -31,6 +31,7 @@ sh fedora-config/total-script.sh
 ### GNOME
 > 基于GNOME进行了美化  
 > 详情请点击传送门: [To GNOME](gnome/)  
+
 ![GNOME-Overview](screenshots/gnome/overview.png)  
 ![GNOME-Desktop](screenshots/gnome/desktop.png)  
 
@@ -38,12 +39,16 @@ sh fedora-config/total-script.sh
 > Shell选择了Fish, 搭配上了Starship  
 > 终端与复用器, 分别选择了 Alacritty 与 Zellij  
 > 关于具体配置, 请点击传送门: [To Shell](shells/) && [To Terminal](terminals/)  
+
 ![Terminal](screenshots/terminal/terminal.png)
 
 ### Editor
 > Helix-Editor 万岁!
-> 当然, 也搭配有其他选项, 不过不推荐
-![Helix-Editor](screenshots/editors/helix-editor.png)
+> 当然, 也有其他的可供选择, 不过并不推荐
+
+![Helix-editing](screenshots/editors/helix-editing.png)
+![Helix-file-picker](screenshots/editors/helix-file-picker.png)
+![Helix-symbol-picker](screenshots/editors/helix-symbol-picker)
 
 ## 结语
 该项目力求跟上时代, 永不过时  
