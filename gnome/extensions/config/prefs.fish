@@ -23,11 +23,6 @@ end
 set_name nothing-to-say@extensions.gnome.wouter.bolsterl.ee
 ges play-feedback-sounds false
 
-# UnlockDialogBackground
-set_name unlockDialogBackground@sun.wxg@gmail.com
-ges picture-uri '/usr/share/backgrounds/user/F35-01-day.png'
-ges picture-uri-dark '/usr/share/backgrounds/user/F35-01-day.png'
-
 # Auto-move-windows
 set_name auto-move-windows@gnome-shell-extensions.gcampax.github.com
 ges application-list "[
