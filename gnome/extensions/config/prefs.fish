@@ -63,6 +63,8 @@ ges panel-in-overview true ; ges app-menu false ; ges window-preview-close-butto
 ges search false ; ges keyboard-layout false ; ges panel-notification-icon true ; ges show-apps-button false ; ges window-preview-caption false
 ges window-picker-icon false ; ges app-menu-icon false ; ges double-super-to-appgrid false
 
-## # Blur My shell
-## set_name blur-my-shell@aunetx
-## ges overview-blur false
+# ControlBlurEffectOnLockScreen
+gsettings  --schemadir ~/.local/share/gnome-shell/extensions/ControlBlurEffectOnLockScreen@pratap.fastmail.fm/schemas/ \
+set org.gnome.shell.extensions.blur sigma 999
+gsettings  --schemadir ~/.local/share/gnome-shell/extensions/ControlBlurEffectOnLockScreen@pratap.fastmail.fm/schemas/ \
+set org.gnome.shell.extensions.blur brightness 1.0
