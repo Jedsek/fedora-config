@@ -21,7 +21,7 @@ Fedora属于红帽一派, 而红帽又是GNOME的死忠
 - 窗口规则: Firefox, Alacritty, Steam启动后会出现到对应的工作区
 
 
-## 窗口管理器
+## Windows Manager
 
 GNOME的WM是Mutter, 经大量折腾其实也能模拟Sway之辈  
 但我不会配置成平铺式, 因为虽然炫酷, 但实际上只适合少数人  
