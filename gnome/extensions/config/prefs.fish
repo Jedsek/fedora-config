@@ -63,6 +63,6 @@ ges panel-in-overview true ; ges app-menu false ; ges window-preview-close-butto
 ges search false ; ges keyboard-layout false ; ges panel-notification-icon true ; ges show-apps-button false ; ges window-preview-caption false
 ges window-picker-icon false ; ges app-menu-icon false ; ges double-super-to-appgrid false
 
-# Blur My shell
-set_name blur-my-shell@aunetx
-ges overview-blur false
+## # Blur My shell
+## set_name blur-my-shell@aunetx
+## ges overview-blur false
