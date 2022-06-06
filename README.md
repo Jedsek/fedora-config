@@ -8,12 +8,14 @@
 **注意:**  
 **Fedora的版本为: 36**
 
+
 ## 用法
 
 ```bash
 git clone https://gitee.com/jedsek/fedora-config
 sh fedora-config/total-script.sh
 ```
+
 
 ## 总览
 
@@ -29,15 +31,15 @@ sh fedora-config/total-script.sh
 
 ## 详情
 ### GNOME
-> 基于GNOME进行了美化  
+> 基于GNOME进行了美化/优化  
 > 详情请点击传送门: [To GNOME](gnome/)  
 ![GNOME-Overview](screenshots/gnome/overview.png)  
 ![GNOME-Desktop](screenshots/gnome/desktop.png)  
 
 ### Terminal/Shell 
-> Shell选择了Fish, 搭配上了Starship  
+> Shell选择了Fish...为了友好, 搭配上了Starship进行美化 :)  
 > 终端与复用器, 分别选择了 Alacritty 与 Zellij  
-> 关于具体配置, 请点击传送门: [To Shell](shells/)  
+> 关于Fish配置的详情, 请点击传送门: [To Fish](shells/fish/)  
 ![Terminal](screenshots/terminal/terminal.png)
 
 ## 结语
