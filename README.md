@@ -51,9 +51,9 @@ sh fedora-config/total-script.sh
 ![Helix-symbol-picker](screenshots/editors/helix-symbol-picker.png)
 
 ### Fcitx5
-> Fcitx5已经蛮香的了, 主题配置也很简单
-> 我修改了下其快捷键, 词典, 历史记录等
->[To Fcitx5](fcitx5/)
+> Fcitx5已经蛮香的了, 主题配置也很简单  
+> 我修改了下其快捷键, 词典, 历史记录等  
+>[To Fcitx5](fcitx5/)  
 
 ## 结语
 该项目力求跟上时代, 永不过时  
