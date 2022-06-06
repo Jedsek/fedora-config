@@ -37,7 +37,7 @@ sh fedora-config/total-script.sh
 ### Terminal/Shell 
 > Shell选择了Fish, 搭配上了Starship  
 > 终端与复用器, 分别选择了 Alacritty 与 Zellij  
-> 关于Fish配置的详情, 请点击传送门: [To Shell](shells/)  
+> 关于具体配置, 请点击传送门: [To Shell](shells/)  
 ![Terminal](screenshots/terminal/terminal.png)
 
 ## 结语
