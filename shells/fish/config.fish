@@ -1,8 +1,5 @@
 starship   init fish | source
 zoxide     init fish | source
-if not set -q ZELLIJ
-    zj
-end
 
 
 set -U fish_greeting "Enjoy it!"
