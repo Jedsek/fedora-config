@@ -1,1 +1,0 @@
-gsettings set org.gnome.settings-daemon.plugins.power idle-brightness 68
