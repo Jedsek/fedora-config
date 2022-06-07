@@ -20,7 +20,7 @@ gsettings set $gp1/custom1/ binding  '<Super>e'
 
 ## Browser
 gsettings set $gp1/custom2/ name     'Browser'
-gsettings set $gp1/custom2/ command  'firefox'
+gsettings set $gp1/custom2/ command  'microsoft-edge-beta'
 gsettings set $gp1/custom2/ binding  '<Super>b'
 
 ## Settings
