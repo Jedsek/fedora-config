@@ -3,7 +3,7 @@ echo '[source.crates-io]
 replace-with = \'ustc\'
 
 [source.ustc]
-registry = "https://mirrors.ustc.edu.cn/crates.io-index"' > $nud/.cargo/config
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"' > $nud/.cargo/config
 
 
 sudo dnf copr enable -y robot/rust-analyzer
