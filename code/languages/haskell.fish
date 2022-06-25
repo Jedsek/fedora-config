@@ -1,1 +1,1 @@
-sudo dnf install -y ghc
+sudo dnf install -y haskell-platform
