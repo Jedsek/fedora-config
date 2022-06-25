@@ -18,6 +18,6 @@ function src -w source -d "Alias for source"
     source $agrv
 end
 
-function logout -d "Logout"
+function lo -d "Logout"
     kill fish
 end
