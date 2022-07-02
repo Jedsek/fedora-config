@@ -4,7 +4,7 @@ set gp1 "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gno
 
 # Custom Keys
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[                                   \
-    '$gp0/custom0/', '$gp0/custom1/', '$gp0/custom2/', '$gp0/custom3/, '$gp0/custom4/'                            \
+    '$gp0/custom0/', '$gp0/custom1/', '$gp0/custom2/', '$gp0/custom3/', '$gp0/custom4/'                            \
 ]"
 
 
