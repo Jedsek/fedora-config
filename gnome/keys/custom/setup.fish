@@ -4,7 +4,7 @@ set gp1 "org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gno
 
 # Custom Keys
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[                                   \
-    '$gp0/custom0/', '$gp0/custom1/', '$gp0/custom2/', '$gp0/custom3/'                            \
+    '$gp0/custom0/', '$gp0/custom1/', '$gp0/custom2/', '$gp0/custom3/, '$gp0/custom4/'                            \
 ]"
 
 
@@ -27,3 +27,8 @@ gsettings set $gp1/custom2/ binding  '<Super>b'
 gsettings set $gp1/custom3/ name     'Settings'
 gsettings set $gp1/custom3/ command  'gnome-control-center'
 gsettings set $gp1/custom3/ binding  '<Super>s'
+
+## Fcitx5 Reload
+gsettings set $gp1/custom4/ name     'Fcitx5_Reload'
+gsettings set $gp1/custom4/ command  'fcitx5 -r'
+gsettings set $gp1/custom4/ binding  '<Alt>space'
