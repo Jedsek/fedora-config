@@ -1,7 +1,6 @@
 window:
   decorations: None
-  startup_mode: Maximized
-  opacity: 0.9
+  startup_mode: Fullscreen
 
 shell:
   program: /bin/fish
