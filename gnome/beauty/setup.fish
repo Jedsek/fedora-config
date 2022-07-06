@@ -3,6 +3,7 @@ for part in $gnome_dir/beauty/*/setup.fish
 end
 
 gsettings set org.gnome.desktop.interface show-battery-percentage true
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
 
 # xhost +SI:localuser:gdm
 # gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
