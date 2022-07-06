@@ -3,7 +3,7 @@ set mtk gsettings set org.gnome.mutter.keybindings
 
 $wmk minimize                  "['<Super>comma']"               ## Default:  Super+H
 $wmk toggle-fullscreen         "['<Super>f']"                   ## Default:  None
-$wmk close                     "['<Super>q']"                   ## Default:  Alt+F4
+$wmk close                     "['<Super><Shift>q']"            ## Default:  Alt+F4
 $wmk begin-resize              "['<Super>r']"                   ## Default:  Alt+F8
 $wmk toggle-maximized          "['<Super>m']"                   ## Default:  Alt+F10
 $wmk begin-move                "['<Super>x']"                   ## Default:  Alt+F7
