@@ -5,7 +5,7 @@ function ges
     set -l ext_key  $argv[1]
     set -l ext_val  $argv[2]
     
-    gsettings --schemadir $nud/.local/share/gnome-shell/extensions/$uuid/schemas/ \
+    gsettings --schemadir ~/.local/share/gnome-shell/extensions/$uuid/schemas/ \
     set org.gnome.shell.extensions.$ext_name $ext_key $ext_val
 end
 
