@@ -1,0 +1,303 @@
+[desktop/ibus/general/hotkey]
+triggers=@as []
+
+[org/gnome/builder]
+format-on-save=true
+projects-directory='Projects'
+style-variant='dark'
+window-maximized=true
+
+[org/gnome/builder/editor]
+auto-save-timeout=2
+completion-n-rows=10
+font-name='Source Code Pro 14'
+highlight-current-line=true
+highlight-matching-brackets=true
+keybindings='default'
+scroll-offset=3
+show-grid-lines=false
+show-line-numbers=true
+show-relative-line-numbers=false
+style-scheme-name='Adwaita-dark'
+
+[org/gnome/builder/plugins/copyright]
+update-on-save=false
+
+[org/gnome/builder/plugins/eslint]
+enable-eslint=true
+
+[org/gnome/builder/plugins/stylelint]
+enable-stylelint=true
+
+[org/gnome/builder/terminal]
+font-name='Source Code Pro 14'
+
+[org/gnome/builder/workbench]
+bottom-position=400
+bottom-visible=false
+left-position=300
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/applications/terminal]
+exec='alacritty'
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/user/F35-01-day.png'
+picture-uri-dark='file:///usr/share/backgrounds/user/F35-01-day.png'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-animations=true
+gtk-theme='Nordic'
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-nautilus']
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/peripherals/touchpad]
+disable-while-typing=false
+speed=0.56999999999999995
+tap-to-click=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=true
+
+[org/gnome/desktop/wm/keybindings]
+activate-window-menu=['']
+begin-move=['<Super>x']
+begin-resize=['<Super>r']
+close=['<Super><Shift>q']
+maximize=['<Super>j']
+minimize=['<Super>comma']
+move-to-workspace-1=['<Super><Shift>1']
+move-to-workspace-10=['<Super><Shift>0']
+move-to-workspace-2=['<Super><Shift>2']
+move-to-workspace-3=['<Super><Shift>3']
+move-to-workspace-4=['<Super><Shift>4']
+move-to-workspace-5=['<Super><Shift>5']
+move-to-workspace-6=['<Super><Shift>6']
+move-to-workspace-7=['<Super><Shift>7']
+move-to-workspace-8=['<Super><Shift>8']
+move-to-workspace-9=['<Super><Shift>9']
+panel-run-dialog=['<Super>c']
+show-desktop=['<Super>d']
+switch-input-source=['XF86Keyboard']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-10=['<Super>0']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-5=['<Super>5']
+switch-to-workspace-6=['<Super>6']
+switch-to-workspace-7=['<Super>7']
+switch-to-workspace-8=['<Super>8']
+switch-to-workspace-9=['<Super>9']
+toggle-fullscreen=['<Super>f']
+toggle-maximized=['<Super>m']
+unmaximize=['<Super>k']
+
+[org/gnome/desktop/wm/preferences]
+num-workspaces=5
+theme='Nordic'
+workspace-names=['Browser', 'Terminal', 'Game', 'Box', 'Other']
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter]
+dynamic-workspaces=true
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=['<Super>h']
+toggle-tiled-right=['<Super>l']
+
+[org/gnome/mutter/wayland/keybindings]
+restore-shortcuts=@as []
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-last-coordinates=(30.308399280057593, 120.16119999999999)
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
+screensaver=['<Super>Escape']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>Return'
+command='alacritty'
+name='Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>e'
+command='nautilus'
+name='Files'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>b'
+command='microsoft-edge-beta'
+name='Browser'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Super>s'
+command='gnome-control-center'
+name='Settings'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Alt>space'
+command='fcitx5 -r'
+name='Fcitx5_Reload'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+command-history=['reboot', 'shutdown now', 'logout']
+enabled-extensions=['auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'gnome-ui-tune@itstime.tech', 'gsconnect@andyholmes.github.io', 'instantworkspaceswitcher@amalantony.net', 'just-perfection-desktop@just-perfection', 'nothing-to-say@extensions.gnome.wouter.bolsterl.ee', 'overview-navigation@nathanielsimard.github.com', 'static-background@denizaksimsek.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'workspace-switcher-manager@G-dH.github.com', 'workspaces-bar@fthx']
+favorite-apps=@as []
+welcome-dialog-last-shown-version='42.0'
+
+[org/gnome/shell/extensions/auto-move-windows]
+application-list=['firefox.desktop:1', 'microsoft-edge-beta.desktop:1', 'xfce4-terminal.desktop:2', 'Alacritty.desktop:2', 'org.gnome.Terminal.desktop:2', 'steam.desktop:3', 'org.gnome.Boxes.desktop:4']
+
+[org/gnome/shell/extensions/blur]
+brightness=1.0
+sigma=999
+
+[org/gnome/shell/extensions/gnome-ui-tune]
+hide-search=true
+
+[org/gnome/shell/extensions/gsconnect]
+id='70e970a4-2dbf-4b8d-8883-03a418fc9f70'
+name='nixos'
+
+[org/gnome/shell/extensions/just-perfection]
+accessibility-menu=false
+activities-button=false
+animation=3
+app-menu=false
+app-menu-icon=false
+background-menu=false
+clock-menu-position=1
+dash=false
+double-super-to-appgrid=false
+hot-corner=false
+keyboard-layout=false
+notification-banner-position=2
+panel=false
+panel-button-padding-size=9
+panel-in-overview=true
+panel-notification-icon=true
+search=false
+show-apps-button=false
+window-picker-icon=false
+window-preview-caption=false
+window-preview-close-button=false
+
+[org/gnome/shell/extensions/nothing-to-say]
+play-feedback-sounds=false
+
+[org/gnome/shell/extensions/overview-navigation]
+border-color='rgb(53,132,228)'
+border-size=3
+
+[org/gnome/shell/extensions/workspace-switcher-manager]
+active-prefs-page=0
+active-show-app-name=false
+active-show-win-title=false
+active-show-ws-index=false
+active-show-ws-name=true
+default-colors=['rgba(29,29,29,255)', '#353535ff', 'rgba(255,255,255,255)', 'rgba(0,110,255,255)', 'rgba(255,255,255,255)', 'rgba(29,29,29,255)']
+fade-out-time=96
+font-scale=150
+hide=false
+horizontal=100
+inactive-show-app-name=false
+inactive-show-win-title=false
+inactive-show-ws-index=false
+inactive-show-ws-name=true
+modifiers-hide-popup=true
+on-screen-time=520
+popup-active-bg-color='rgba(0,110,255,255)'
+popup-active-fg-color='rgba(255,255,255,255)'
+popup-bg-color='rgba(29,29,29,255)'
+popup-border-color='#353535ff'
+popup-inactive-bg-color='rgba(29,29,29,255)'
+popup-inactive-fg-color='rgba(255,255,255,255)'
+popup-mode=0
+popup-opacity=82
+popup-radius-scale=30
+popup-scale=100
+popup-width-scale=136
+reverse-popup-orientation=true
+reverse-ws-orientation=false
+text-bold=true
+vertical=50
+ws-ignore-last=true
+ws-wraparound=false
+
+[org/gnome/shell/keybindings]
+focus-active-notification=@as []
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+switch-to-application-5=@as []
+switch-to-application-6=@as []
+switch-to-application-7=@as []
+switch-to-application-8=@as []
+switch-to-application-9=@as []
+toggle-message-tray=['<Super>n']
+toggle-overview=@as []
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1657185830
+first-run=false
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=170
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(887, 327)
