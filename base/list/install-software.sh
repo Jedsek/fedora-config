@@ -6,8 +6,8 @@ sudo dnf install -y zoxide procs exa bat ripgrep fd-find sd
 sudo dnf install -y wl-clipboard trash-cli
 sudo dnf install -y gtk4-devel
 
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
-sudo dnf install -y microsoft-edge-beta
+# sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+# sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
+# sudo dnf install -y microsoft-edge-beta
 
 sudo cnpm i -g hexo
