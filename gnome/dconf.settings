@@ -198,7 +198,7 @@ hide-search=true
 
 [org/gnome/shell/extensions/gsconnect]
 id='70e970a4-2dbf-4b8d-8883-03a418fc9f70'
-name='nixos'
+name='fedora'
 
 [org/gnome/shell/extensions/just-perfection]
 accessibility-menu=false
