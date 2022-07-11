@@ -10,7 +10,7 @@
 
 ```bash
 git clone https://gitee.com/jedsek/fedora-config
-sh fedora-config/total-script.sh
+sh fedora-config/total-setup.sh
 ```
 
 ## 总览
