@@ -37,6 +37,10 @@ bottom-position=400
 bottom-visible=false
 left-position=300
 
+[org/gnome/control-center]
+last-panel='keyboard'
+window-state=(980, 640, false)
+
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
 
@@ -72,6 +76,9 @@ toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
 application-children=['org-gnome-nautilus']
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
@@ -144,6 +151,11 @@ restore-shortcuts=@as []
 
 [org/gnome/nautilus/preferences]
 default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-last-coordinates=(30.308399280057593, 120.16119999999999)
@@ -181,6 +193,7 @@ name='Fcitx5_Reload'
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
+app-picker-layout=[{'org.fedoraproject.MediaWriter.desktop': <{'position': <0>}>, 'libreoffice-calc.desktop': <{'position': <1>}>, 'libreoffice-impress.desktop': <{'position': <2>}>, 'libreoffice-writer.desktop': <{'position': <3>}>, 'org.gnome.TextEditor.desktop': <{'position': <4>}>, 'org.gnome.Calculator.desktop': <{'position': <5>}>, 'simple-scan.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'gnome-system-monitor.desktop': <{'position': <8>}>, 'org.gnome.Boxes.desktop': <{'position': <9>}>, 'org.gnome.Terminal.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>, 'yelp.desktop': <{'position': <12>}>}]
 command-history=['reboot', 'shutdown now', 'logout']
 enabled-extensions=['auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'gnome-ui-tune@itstime.tech', 'gsconnect@andyholmes.github.io', 'instantworkspaceswitcher@amalantony.net', 'just-perfection-desktop@just-perfection', 'nothing-to-say@extensions.gnome.wouter.bolsterl.ee', 'overview-navigation@nathanielsimard.github.com', 'static-background@denizaksimsek.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'workspace-switcher-manager@G-dH.github.com', 'workspaces-bar@fthx']
 favorite-apps=@as []
@@ -285,6 +298,7 @@ locations=@av []
 [org/gnome/software]
 check-timestamp=int64 1657185830
 first-run=false
+update-notification-timestamp=int64 1657524472
 
 [org/gnome/system/location]
 enabled=true
