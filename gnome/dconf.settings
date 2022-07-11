@@ -164,7 +164,7 @@ name='Files'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Super>b'
-command='microsoft-edge-beta'
+command='firefox'
 name='Browser'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
