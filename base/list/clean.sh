@@ -4,7 +4,5 @@ sudo dnf remove -y abrt gnome-abrt gnome-software gnome-weather gnome-contacts g
 sudo dnf remove -y gnome-clocks gnome-disk-utility baobab cheese totem samba-client rhythmbox
 sudo dnf remove -y gnome-tour
 
-sudo dnf remove -y firefox
-
 sudo rm /usr/bin/gnome-help
 sudo dnf clean all
