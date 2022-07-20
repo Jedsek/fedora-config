@@ -2,7 +2,7 @@ set exts_list
 
 for ext in $gnome_dir/extensions/list/*.zip
     set uuid ( unzip -p $ext metadata.json | jq -r ".uuid" )
-    mkdir $ext_dir/$uuid
+    mkdir -p $ext_dir/$uuid
     unzip -q -o $ext -d $ext_dir/$uuid
     set -a exts_list \'$uuid\'
 end
