@@ -14,6 +14,9 @@ fish -N $scripts_dir/code/setup.fish
 sudo rm -rf /root/.config
 sudo ln -s  $nud/.config /root/
 
+mkdir -p ~/.icons/default/
+mv $scripts_dir/index.theme ~/.icons/default/
+
 echo "Reboot now......"
 sudo rm -rf $scripts_dir
 sudo sed -i '$d' /etc/sudoers
