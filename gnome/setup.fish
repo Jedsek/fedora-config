@@ -6,6 +6,9 @@ sudo chmod -R 777 ~/.local/
 fish -N $gnome_dir/extensions/setup.fish
 fish -N $gnome_dir/beauty/setup.fish
 cat $gnome_dir/dconf.settings | dconf load -f /
+mv  $gnome_dir/gnome-shell.css $HOME/.local/share/gnome-shell/gnome-shell.css
+
+
 xhost +SI:localuser:gdm
 sudo -u gdm gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
 sudo -u gdm gsettings set org.gnome.desktop.peripherals.touchpad speed 0.57
