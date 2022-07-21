@@ -346,7 +346,7 @@ sleep-inactive-ac-type='nothing'
 [org/gnome/shell]
 app-picker-layout=[{'org.fedoraproject.MediaWriter.desktop': <{'position': <0>}>, 'libreoffice-calc.desktop': <{'position': <1>}>, 'libreoffice-impress.desktop': <{'position': <2>}>, 'libreoffice-writer.desktop': <{'position': <3>}>, 'org.gnome.TextEditor.desktop': <{'position': <4>}>, 'org.gnome.Calculator.desktop': <{'position': <5>}>, 'simple-scan.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'gnome-system-monitor.desktop': <{'position': <8>}>, 'org.gnome.Boxes.desktop': <{'position': <9>}>, 'org.gnome.Terminal.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>, 'yelp.desktop': <{'position': <12>}>, 'Alacritty.desktop': <{'position': <13>}>, 'org.gnome.Builder.desktop': <{'position': <14>}>, 'org.fcitx.Fcitx5.desktop': <{'position': <15>}>, 'fcitx5-configtool.desktop': <{'position': <16>}>, 'org.gnome.Nautilus.desktop': <{'position': <17>}>, 'firefox.desktop': <{'position': <18>}>, 'fish.desktop': <{'position': <19>}>, 'kbd-layout-viewer5.desktop': <{'position': <20>}>, 'microsoft-edge-beta.desktop': <{'position': <21>}>, 'nvim.desktop': <{'position': <22>}>, 'xfce4-terminal.desktop': <{'position': <23>}>}]
 command-history=['logout', 'reboot', 'shutdown niw', 'shutdown now']
-enabled-extensions=['auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'gamemode@christian.kellner.me', 'gnome-ui-tune@itstime.tech', 'gsconnect@andyholmes.github.io', 'instantworkspaceswitcher@amalantony.net', 'nothing-to-say@extensions.gnome.wouter.bolsterl.ee', 'overview-navigation@nathanielsimard.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'workspace-switcher-manager@G-dH.github.com', 'static-background@denizaksimsek.com', 'just-perfection-desktop@just-perfection', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'refresh-wifi@kgshank.net', 'gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com', 'space-bar@luchrioh', 'colorful-battery-indicator@aneruam', 'cpudots@kdevmen.gmail.com', 'freq-boost-switch@metal03326', 'soft-brightness@fifi.org', 'pip-on-top@rafostar.github.com', 'eye-extended@als.kz', 'transparent-window-moving@noobsai.github.com', 'overview_cleaner@gonza.com', 'big-avatar@gustavoperedo.org']
+enabled-extensions=['auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'gamemode@christian.kellner.me', 'gnome-ui-tune@itstime.tech', 'gsconnect@andyholmes.github.io', 'instantworkspaceswitcher@amalantony.net', 'nothing-to-say@extensions.gnome.wouter.bolsterl.ee', 'overview-navigation@nathanielsimard.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'workspace-switcher-manager@G-dH.github.com', 'static-background@denizaksimsek.com', 'just-perfection-desktop@just-perfection', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'refresh-wifi@kgshank.net', 'gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com', 'space-bar@luchrioh', 'colorful-battery-indicator@aneruam', 'cpudots@kdevmen.gmail.com', 'freq-boost-switch@metal03326', 'pip-on-top@rafostar.github.com', 'eye-extended@als.kz', 'transparent-window-moving@noobsai.github.com', 'overview_cleaner@gonza.com', 'big-avatar@gustavoperedo.org']
 favorite-apps=@as []
 welcome-dialog-last-shown-version='42.0'
 
@@ -367,9 +367,6 @@ boost=true
 
 [org/gnome/shell/extensions/pip-on-top]
 stick=false
-
-[org/gnome/shell/extensions/soft-brightness]
-current-brightness=1.0
 
 [org/gnome/shell/extensions/transparent-window-moving]
 transition-time=0.4000000000000000
