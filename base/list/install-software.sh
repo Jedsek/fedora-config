@@ -11,3 +11,4 @@ sudo dnf install -y gtk4-devel
 # sudo dnf install -y microsoft-edge-beta
 
 sudo cnpm i -g hexo
+sudo dnf install -y fira-code-fonts
