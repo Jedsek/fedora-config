@@ -1,13 +1,6 @@
 #!/usr/bin/env bash
 
-# Mirror
-# sudo sed -e 's|^metalink=|#metalink=|g' \
-#          -e 's|^#baseurl=http://download.example/pub/fedora/linux|baseurl=https://mirrors.ustc.edu.cn/fedora|g' \
-#          -i.bak \
-#          /etc/yum.repos.d/fedora.repo \
-#          /etc/yum.repos.d/fedora-modular.repo \
-#          /etc/yum.repos.d/fedora-updates.repo \
-#          /etc/yum.repos.d/fedora-updates-modular.repo
+sudo bash -c 'echo -e "\nfastestmirror=True" >> /etc/dnf/dnf.conf'
 
 # RPM Fusion
 sudo dnf install -y https://mirrors.ustc.edu.cn/rpmfusion/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.ustc.edu.cn/rpmfusion/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
