@@ -207,6 +207,7 @@ xkb-options=@as []
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 enable-animations=true
+font-name='Fira Code 11.8'
 gtk-theme='Nordic'
 show-battery-percentage=true
 toolkit-accessibility=false
