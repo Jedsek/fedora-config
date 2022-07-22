@@ -361,6 +361,11 @@ show-battery-value-on=true
 eye-mode='bulb'
 eye-position='center'
 eye-repaint-interval=5
+mouse-circle-color='rgb(248,228,92)'
+mouse-circle-left-click-color='rgb(248,228,92)'
+mouse-circle-middle-click-color='rgb(248,228,92)'
+mouse-circle-right-click-color='rgb(248,228,92)'
+
 
 [org/gnome/shell/extensions/freq-boost-switch]
 boost=true
