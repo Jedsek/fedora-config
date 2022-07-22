@@ -5,6 +5,7 @@ shell = ["fish", "-c"]
 line-number = "relative"
 idle-timeout = 0
 completion-trigger-len = 1
+auto-pairs = false
 
 [editor.cursor-shape]
 insert = "bar"
