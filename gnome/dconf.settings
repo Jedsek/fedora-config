@@ -352,6 +352,11 @@ name='Nordic'
 command='gnome-control-center user-accounts'
 horizontalmode=true
 
+[org/gnome/shell/extensions/bluetooth-quick-connect]
+bluetooth-auto-power-on=true
+refresh-button-on=true
+show-battery-value-on=true
+
 [kz/als/eye-extended]
 eye-mode='bulb'
 eye-position='center'
