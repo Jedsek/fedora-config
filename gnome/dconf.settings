@@ -312,7 +312,7 @@ maximized=false
 night-light-last-coordinates=(30.290400719942404, 120.16119999999999)
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
 screensaver=['<Super>Escape']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
@@ -330,7 +330,7 @@ binding='<Super>b'
 command='firefox'
 name='Browser'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Alt>space'
 command='fcitx5 -r'
 name='Fcitx5_Reload'
