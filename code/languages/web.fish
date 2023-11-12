@@ -1,0 +1,1 @@
+sudo cnpm i -g vscode-langservers-extracted

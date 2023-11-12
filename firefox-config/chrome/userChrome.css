@@ -1,0 +1,274 @@
+:root:not([uidensity=compact]) #back-button > .toolbarbutton-icon {
+  background-color: initial !important;
+  border: initial !important;
+}
+
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+  display: none !important;
+}
+
+#navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#nav-bar) {
+  padding: 0px 4px 4px !important;
+}
+
+.tabbrowser-tab {
+  margin: 0px -28px 0px 0px !important;
+}
+
+.tab-background {
+  background: #222;
+  background-clip: border-box;
+  border: 1px solid #262626 !important;
+  border-width: 0px 1px !important;
+  border-radius: 4px 4px 0px 0px;
+  margin: 0px 15px !important;
+  outline: none !important;
+  transform: perspective(100px) rotateX(30deg) !important;
+}
+
+#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+  background-color: #383838 !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+  background: #333 !important;
+}
+.tabbrowser-tab[selected="true"]:hover .tab-background {
+  background: #444 !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-text.tab-label {
+  color: #CCC !important;
+}
+
+.tab-line {
+  display: none !important;
+}
+
+.tab-content {
+  padding: 0px 25px !important;
+}
+
+/* FF 57-69 */
+.tabs-newtab-button.toolbarbutton-1,
+/* FF 70+ */
+#tabs-newtab-button {
+  margin-left: 20px !important;
+}
+
+.titlebar-placeholder[type="pre-tabs"] {
+  border-inline-end: initial !important;
+}
+
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab] > .tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after {
+  border-color: var(--tabs-border-color);
+  border: none !important;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  opacity: 1.0;
+}
+
+[tabsintitlebar]:root:not([extradragspace]) .tabbrowser-tab::after,
+.tabbrowser-tab:hover::after,
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforehovered]::after {
+  border: none !important;
+}
+
+.tab-text.tab-label {
+  text-shadow: initial !important;
+  color: #CCC !important;
+  font-style: unset;
+  text-decoration: none !important;
+}
+
+.tabbrowser-tab:hover .tab-text.tab-label {
+  color: #EEE !important;
+  text-shadow: none !important;
+}
+
+.tabbrowser-tab .tab-close-button.close-icon {
+  width: 16px;
+}
+.tabbrowser-tab .tab-close-button.close-icon:hover {
+  background: #932E2E;
+  border-radius: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.titlebar-placeholder[type="pre-tabs"],
+.titlebar-placeholder[type="post-tabs"] {
+  display: none;
+  width: 0px;
+}
+
+#TabsToolbar .toolbarbutton-1 {
+  width: 17px !important;
+  padding-left: 4px !important;
+}
+#TabsToolbar .toolbarbutton-1 .toolbarbutton-icon {
+  width: auto !important;
+  height: 24px !important;
+  border-radius: 20px !important;
+  margin: 0px !important;
+  padding: 4px !important;
+}
+
+
+
+ /*
+   Automatically hides the built-in reload button until navbar hover or page load
+   Hide the reload button by default
+ */
+
+#reload-button {
+  display: none !important;
+}
+
+ /*
+ * Makes urlbar and many other things sharper on the edges
+ *
+ * Contributor(s): DrPugsley
+ */
+
+:root {
+  --toolbarbutton-border-radius: 0px !important;
+}
+
+ /*
+ * Hides the address bar history dropmarker permanently.
+ *
+ * Contributor(s): Madis0
+ */
+
+.urlbar-history-dropmarker{
+  display: none !important;
+}
+ /*
+ * Makes the Not Secure text of HTTP pages appear in red text. 
+ * The label itself can be enabled by setting
+ * security.insecure_connection_text.enabled to true in about:config on Firefox 60+.
+ *
+ * Contributor(s): Madis0
+ */
+
+
+#urlbar > #identity-box.notSecureText > #identity-icon-labels > #identity-icon-label {
+  color: rgba(255, 0, 0, 0.867) !important;
+}
+
+
+
+ /*
+ * Only show close buttons on background tabs when hovering with the mouse
+ *
+ * Contributor(s): Timvde
+ */
+
+.tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
+  display: none !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+  display: -moz-box !important;
+}
+
+
+
+
+
+
+ /*
+ * Dims unloaded tabs
+ *
+ * Contributor(s): josemam
+ */
+
+.tabbrowser-tab[pending] {
+  text-decoration: dimgray;
+  opacity: .5;
+}
+
+
+
+
+ /*
+ * Style your tabs similar to Googles "Material Design" guidelines.
+ *
+ * This includes a transparent background and a white line at the bottom
+ * instead of a blue line at the top.
+ *
+ * Contributor(s): Madis0
+ */
+
+.tabbrowser-tab[visuallyselected="true"] {
+  color: inherit !important; /* Use background tab text color for foreground tabs */
+}
+
+.tab-background[selected=true] {
+  background-color: transparent !important; /* Make selected tab bg transparent */
+}
+
+.tab-line {
+  -moz-box-ordinal-group: 2; /* Move the line to the bottom */
+}
+
+.tab-line[selected=true] {
+  background-color: white !important; /* Make the line white, remove this for default color */
+}
+
+
+ /*
+ * Auto-hide the URL-bar show on hover or focus
+ * as seen in https://www.reddit.com/r/FirefoxCSS/comments/boetx7/annoying_page_jump_with_address_bar_autohide/engne27/
+ * by https://www.reddit.com/user/SkyrimForTheDragons/
+ *
+ * slightly modified for more responsiveness
+ * 
+ * Note that this version DOES NOT hide the bookmarks toolbar!
+ */
+#nav-bar:not([customizing="true"]):not([inFullscreen]) {
+	min-height: 1px !important;
+	max-height: 0px !important;
+	margin-top: 1px !important;
+	margin-bottom: -1px !important;
+	transition: all 50ms linear 0s !important;
+	z-index: -5 !important;
+}
+
+#navigator-toolbox:hover:not([inFullscreen]) :-moz-any(#nav-bar),
+#navigator-toolbox:focus-within :-moz-any(#nav-bar) {
+	min-height: 32px !important;
+	max-height: 32px !important;
+	margin-top: 1px !important;
+	margin-bottom: -32px !important;
+	transition: all 50ms linear 0s !important;
+	z-index: 5 !important;
+}
+
+/* Needed for for FF 75 megabar */
+#urlbar {
+	--urlbar-toolbar-height: 32px !important;
+}
+
+
+/*
+ * Hide the back and forward buttons
+*/
+#main-window :-moz-any(#back-button, #forward-button) {
+  display: none !important;
+}
+
+
+.tabbrowser-tab
+{
+	min-height: var(--tab-min-height) !important;
+	overflow: visible !important;
+	font-size: 17px !important;
+	background: 0 !important;
+	border: 0 !important;
+	padding: 0 !important;
+}

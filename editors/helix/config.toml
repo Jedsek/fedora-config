@@ -1,0 +1,75 @@
+theme = "zed_onedark"
+# theme = "nord"
+# theme = "catppuccin_frappe"
+# theme = "catppuccin_macchiato"
+# theme = "catppuccin_mocha"
+
+
+[keys.normal]
+C-A-w = ":w"
+
+[keys.insert]
+C-A-w = ":w"
+
+   
+[editor]
+shell = ["nu", "-c"]
+line-number = "relative"
+scrolloff = 8
+idle-timeout = 0
+completion-trigger-len = 2
+color-modes = true
+bufferline = "multiple"
+cursorline = true
+cursorcolumn = false
+auto-save = true
+auto-pairs = true
+auto-format = true
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+separator = "=>"
+left = ["mode", "spacer", "separator", "file-type", "read-only-indicator", "spinner"]
+center = ["file-modification-indicator", "file-name", "diagnostics", "workspace-diagnostics"]
+right = ["position", "separator", "spacer", "position-percentage", "spacer", "separator", "total-line-numbers"]
+
+
+[editor.gutters.line-numbers]
+min-width = 0
+
+
+[editor.indent-guides]
+render = true
+skip-levels = 0
+
+
+[editor.whitespace.render]
+space = "none"
+tab = "none"
+newline = "none"
+
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)
+
+[editor.smart-tab]
+enable = true

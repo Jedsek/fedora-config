@@ -1,0 +1,1 @@
+sudo dnf install -y vala vala-language-server

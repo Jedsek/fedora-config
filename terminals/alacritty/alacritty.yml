@@ -1,0 +1,58 @@
+window:
+  decorations: none
+  startup_mode: Windowed
+  opacity: 0.9
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: false
+  decorations_theme_variant: Dark
+
+mouse:
+  hide_when_typing: true
+
+font:
+  size: 14
+  
+cusor:
+  unfocused_hollow: true
+colors:
+  primary:
+    background: '#282c34'
+    foreground: '#abb2bf'
+  cursor:
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  vi_mode_cursor:
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  selection:
+    text: CellForeground
+    background: '#4c566a'
+  search:
+    matches:
+      foreground: CellForeground
+      background: '#88c0d0'
+  footer_bar:
+      background: '#434c5e'
+      foreground: '#d8dee9'
+  normal:
+    # NOTE: Use '#131613' for the `black` color if you'd like to see
+    # black text on the background.
+    black:   '#282c34'
+    red:     '#e06c75'
+    green:   '#98c379'
+    yellow:  '#d19a66'
+    blue:    '#61afef'
+    magenta: '#c678dd'
+    cyan:    '#56b6c2'
+    white:   '#abb2bf'
+  bright:
+    black:   '#5c6370'
+    red:     '#e06c75'
+    green:   '#98c379'
+    yellow:  '#d19a66'
+    blue:    '#61afef'
+    magenta: '#c678dd'
+    cyan:    '#56b6c2'
+    white:   '#ffffff'
